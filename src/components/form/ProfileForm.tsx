@@ -41,7 +41,7 @@ export function ProfileForm() {
                 Username
               </FormLabel>
               <FormControl>
-                <Input className="w-4/12" placeholder="shadcn" {...field} />
+                <Input className="w-4/12 ring-inherit" placeholder="shadcn" {...field} />
               </FormControl>
               <FormDescription>
                 This is your public display name.
